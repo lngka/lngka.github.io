@@ -80,9 +80,6 @@ abbr{
 /* cards background to black*/
 .card-block {
   background-color: #333;
-  border-style: solid;
-  border-color: #B71C1C;
-  border-width: 2px;
 }
 
 .card-img-top {
