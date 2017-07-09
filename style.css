@@ -1,0 +1,101 @@
+
+/* make navigation items look like button*/
+.nav-item{
+  background-color: white;
+  border-style: solid;
+  border-color: #B71C1C;
+  border-width: 2px;
+  margin-right: 0.25rem;
+  font-size: 1.25rem;
+}
+/* fix .fixed-top navbar's overlay of content*/
+body {
+  padding-top: 50px;
+  position: relative;
+}
+/*seperate buttons by 1rem*/
+.btn {
+  margin-right:1rem;
+}
+/*seperate rows honrizontally by 2rem*/
+.row {
+  padding-top: 2rem;
+}
+
+
+/*=========== HOME SECTION ===============*/
+#home {
+  background: url("http://i.imgur.com/sWwRYQs.jpg");
+  background-size: cover;
+  min-height:800px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* move #greetings 10rem down from navbar*/
+#home-row1 {
+  padding-top:11rem;
+}
+/* name as greetings*/
+#greetings{
+  margin: auto;
+  background-color:black;
+  opacity: 0.9;
+}
+/* move #greetings 10rem down from navbar*/
+#home-row2{
+  padding-top:1rem;
+}
+/* apply styling for github button*/
+.btn-github{
+  background-color: black;
+  color:white;
+}
+/* remove underline and cursor of <abbr>*/
+abbr{
+  border-bottom: none !important;
+  cursor: inherit !important;
+  text-decoration: none !important;
+}
+
+
+/*===========PORTFOLIO SECTION=============*/
+#portfolio{
+  padding-top: 10%;
+  background-color: #d9534f;
+  background-size: cover;
+  min-height:800px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* cards background to black*/
+.card-block {
+  background-color: #333;
+  border-style: solid;
+  border-color: #B71C1C;
+  border-width: 2px;
+}
+
+/*===========CONTACT SECTION=============*/
+#contact{
+  padding-top: 10%;
+  background-color: #d9534f;
+  background-size: cover;
+  min-height:800px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
