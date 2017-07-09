@@ -65,8 +65,8 @@ abbr{
 
 /*===========PORTFOLIO SECTION=============*/
 #portfolio{
-  padding-top: 10%;
   background-color: #d9534f;
+  padding-top: 2.5vh;
   background-size: cover;
   min-height:800px;
   background-repeat: no-repeat;
@@ -83,6 +83,12 @@ abbr{
   border-style: solid;
   border-color: #B71C1C;
   border-width: 2px;
+}
+
+.card-img-top {
+  -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+   box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 }
 
 /*===========CONTACT SECTION=============*/
